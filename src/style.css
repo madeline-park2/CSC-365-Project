@@ -1,0 +1,111 @@
+.App{
+    height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family:'Palatino', Times, Tahoma, serif;
+    color: #0D1321;
+}
+
+body {
+    background-color: #E7DCDA;
+}
+
+
+h5{
+    padding: 10px 0px;
+    margin: auto;
+}
+
+img{
+    height: 150px;
+    object-fit:fill;
+    padding: 2px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+    margin: none;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+    margin: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    float: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    height: 10%;
+    border: 1px;
+    border-color: black;
+    h1{
+        font-size: 500%;
+        padding: 0px;
+        margin: none;
+    }
+}
+
+button {
+    margin: 2px;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border-color: none;
+    background-color: white;
+    a {
+        color: #0D1321;
+        text-decoration: none;
+    }
+    
+}
+
+input {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.homepage {
+    position:fixed;
+    inset: 0px;
+    width: 60%;
+    padding: 10%;
+    background-color: #9DBEBB;
+    margin:auto;
+    height:fit-content;
+    border-style:solid;
+    border-width: 2px;
+}
+
+.booklist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    float: left;
+    .books{
+        padding: 2%;
+    }
+}
+
+h5 {
+    word-break: normal;
+    width: 150px;
+}
+
+
